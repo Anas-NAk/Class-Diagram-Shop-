@@ -99,7 +99,7 @@ namespace Model1
     {
         private string name;
         private string type;
-        private object expDate;
+        private DateTime expDate;
 
         public void authorized()
         {
