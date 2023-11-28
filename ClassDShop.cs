@@ -73,17 +73,17 @@ namespace Model1
         private int shippingWeight;
         private string description;
 
-        public void calcSubTotal()
+        public double GetPriceForQuantity()
         {
             // Implementation
         }
 
-        public void calcTax()
+        public double GetTax()
         {
             // Implementation
         }
 
-        public void calcWeight()
+        public bool InStock()
         {
             // Implementation
         }
